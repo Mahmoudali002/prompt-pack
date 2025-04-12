@@ -1,1 +1,2 @@
-// Flows will be imported for their side effects in this file.
+import '@/ai/flows/prompt-quality-feedback.ts';
+import '@/ai/flows/improve-prompt-quality.ts';
