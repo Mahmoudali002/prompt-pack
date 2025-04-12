@@ -1,14 +1,17 @@
+/*Font*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Geist', sans-serif;
 }
 
 @layer base {
   :root {
-    --background: 240 5% 96%; /* Neutral white/light gray */
+    --background: 245 5% 98%; /* Light gray background */
     --foreground: 222.2 47.4% 11.2%;
     --card: 0 0% 100%;
     --card-foreground: 222.2 47.4% 11.2%;
@@ -33,7 +36,7 @@ body {
     --chart-3: 197 37% 24%;
     --chart-4: 43 74% 66%;
     --chart-5: 27 87% 67%;
-    --sidebar-background: 220 14.3% 95.9%;
+    --sidebar-background: 250 10% 97%;
     --sidebar-foreground: 222.2 47.4% 11.2%;
     --sidebar-primary: 222.2 47.4% 11.2%;
     --sidebar-primary-foreground: 210 40% 98%;
@@ -86,4 +89,8 @@ body {
   body {
     @apply bg-background text-foreground;
   }
+}
+
+.file\:border-0::file-selector-button {
+  border-width: 0px;
 }

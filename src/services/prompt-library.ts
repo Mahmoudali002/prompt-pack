@@ -78,6 +78,14 @@ export async function getPrompts(): Promise<PromptCategory[]> {
           prompt: 'Design a professional and memorable business card for a freelance graphic designer, incorporating key contact information, a personal logo, and a unique visual element that reflects their creative style.',
           description: 'Helps create business cards for a freelance graphic designer.',
         },
+        {
+          prompt: 'Create a mood board for a modern, minimalist interior design project, including color schemes, textures, and furniture styles.',
+          description: 'Generates a mood board for interior design.',
+        },
+        {
+          prompt: 'Design a landing page for a new SaaS product, focusing on a clean layout, clear value proposition, and a compelling call-to-action.',
+          description: 'Helps design landing pages for SaaS products.',
+        },
       ],
     },
     {
@@ -122,6 +130,14 @@ export async function getPrompts(): Promise<PromptCategory[]> {
         {
           prompt: 'What are the primary etiological factors and pathophysiological mechanisms underlying the development of autoimmune disorders, and how do these factors contribute to disease manifestation?',
           description: 'Lists the causes of autoimmune disorders.',
+        },
+        {
+          prompt: 'Describe the latest advancements in gene therapy for treating cystic fibrosis.',
+          description: 'Outlines gene therapy for cystic fibrosis.',
+        },
+        {
+          prompt: 'Outline a rehabilitation program for a patient recovering from a stroke, including exercises and therapies.',
+          description: 'Recommends a stroke rehabilitation program.',
         },
       ],
     },
@@ -168,6 +184,14 @@ export async function getPrompts(): Promise<PromptCategory[]> {
           prompt: 'Draft a privacy policy for a website or mobile app, disclosing the types of personal information collected, how it is used, and the measures taken to protect user data.',
           description: 'Helps draft privacy policies.',
         },
+        {
+          prompt: 'Outline the steps for filing a patent application, including required documentation and fees.',
+          description: 'Details the patent application process.',
+        },
+        {
+          prompt: 'Summarize the key provisions of the Sarbanes-Oxley Act and its implications for corporate governance.',
+          description: 'Summarizes the Sarbanes-Oxley Act.',
+        },
       ],
     },
     {
@@ -212,6 +236,14 @@ export async function getPrompts(): Promise<PromptCategory[]> {
         {
           prompt: 'Create a comprehensive SWOT (Strengths, Weaknesses, Opportunities, Threats) analysis for a local bakery, identifying internal and external factors impacting its competitive position in the market.',
           description: 'Helps create SWOT analyses for a local bakery.',
+        },
+        {
+          prompt: 'Develop a content marketing strategy for a new line of vegan cosmetics, including blog topics, social media campaigns, and influencer collaborations.',
+          description: 'Creates content marketing strategies for vegan cosmetics.',
+        },
+        {
+          prompt: 'Design an A/B test for a website checkout page to improve conversion rates, including variables to test and metrics to track.',
+          description: 'Designs A/B tests for website checkout pages.',
         },
       ],
     },
